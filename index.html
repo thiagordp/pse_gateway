@@ -11,19 +11,25 @@
 
 <style>
 
-.camera1{ height:215px; width: 320px; margin-top:2px; margin-left: -5px; border:5px solid #c0c0c0;}
-.camera2{ height:215px; width: 320px; margin-top:2px; margin-left: -5px; border:5px solid #c0c0c0;}
-.camera3{ height:215px; width: 320px; margin-top:-220px; margin-left: -5px; border:5px solid #c0c0c0;}
-.camera4{ height:215px; width: 320px; margin-top:-220px; margin-left: -5px; border:5px solid #c0c0c0;}
+.camera1{ height:260px; width: 360px; margin-top:2px; margin-left: -5px; border:5px solid #c0c0c0;}
+.camera2{ height:260px; width: 360px; margin-top:2px; margin-left: -5px; border:5px solid #c0c0c0;}
+.camera3{ height:260px; width: 360px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.camera4{ height:260px; width: 360px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
 
-.painel2{ height:430px; width: 360px; margin-top:2px; margin-left: -5px; border:5px solid #c0c0c0;}
-.painel3{ height:205px; width: 500px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
-.painel4{ height:205px; width: 500px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.atuador1{ height:260px; width: 300px; margin-top:2px; margin-left: -5px; border:5px solid #c0c0c0;}
+.atuador2{ height:260px; width: 300px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+
+.ultrassom1{ height:120px; width: 125px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.ultrassom2{ height:120px; width: 125px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.ultrassom3{ height:120px; width: 125px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.ultrassom4{ height:120px; width: 125px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+
+.fumaca1{ height:120px; width: 125px; margin-top:-5px; margin-left: 40px; border:5px solid #c0c0c0;}
+.fumaca2{ height:120px; width: 125px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.fumaca3{ height:120px; width: 125px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+.fumaca4{ height:120px; width: 125px; margin-top:-5px; margin-left: -5px; border:5px solid #c0c0c0;}
+
 .painel5{ height:630px; width: 270px; margin-top: 2px; margin-left: 2px; border:5px solid #c0c0c0;}
-.indent{ padding-left: 1.8em }
-.content-loader tr td {
-    white-space: nowrap;
-}
 
 </style>
 
@@ -45,36 +51,103 @@
 <div class="row">
 
 <div class="col-md-4 camera1" >
-  	<span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Camera
+  	<div class="btn-group btn-group-xs" role="group" aria-label="...">
+  	<button type="button" class="btn btn-default">
+  		<span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Camera 1
+  	</button>
+  	</div>
+
+  	<img src=""
+  	align="left" width="320" height="220">
+  	
 </div>
 
 <div class="col-md-4 camera2" >
-  	<span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Camera
+  	<div class="btn-group btn-group-xs" role="group" aria-label="...">
+  	<button type="button" class="btn btn-default">
+  		<span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Camera 2
+  	</button>
+  	</div>
+
+  	<img src=""
+  	align="left" width="320" height="220">
+
 </div>
 
-<div class="col-md-4 painel2" >
-	<span class="glyphicon glyphicon-off" aria-hidden="true"></span> Atuador
+<div class="col-md-4 atuador1" >
+  	<div class="btn-group btn-group-xs" role="group" aria-label="...">
+  	<button type="button" class="btn btn-default">
+  		<span class="glyphicon glyphicon-off" aria-hidden="true"></span> Atuador 1
+  	</button>
+  	</div>
 </div>
 
 <div class="col-md-4 camera3" >
-  	<span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Camera
+  	<div class="btn-group btn-group-xs" role="group" aria-label="...">
+  	<button type="button" class="btn btn-default">
+  		<span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Camera 3
+  	</button>
+  	</div>
+
+  	<img src=""
+  	align="left" width="320" height="220">
+
 </div>
 
 <div class="col-md-4 camera4" >
-  	<span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Camera
+  	<div class="btn-group btn-group-xs" role="group" aria-label="...">
+  	<button type="button" class="btn btn-default">
+  		<span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Camera 4
+  	</button>
+  	</div>
+
+  	<img src=""
+  	align="left" width="320" height="220">
+
 </div>
 
-
-
-<div class="col-md-4 painel3" >
-  	<span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span> Sensor Ultrasom
+<div class="col-md-4 atuador2" >
+  	<div class="btn-group btn-group-xs" role="group" aria-label="...">
+  	<button type="button" class="btn btn-default">
+  		<span class="glyphicon glyphicon-off" aria-hidden="true"></span> Atuador 2
+  	</button>
+  	</div>
 </div>
 
-<div class="col-md-4 painel4" >
-	<span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Sensor Fumaça
+<div class="col-md-4 ultrassom1" >
+  	<span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span> Sensor Ultrassom 1
+  	<div class="alert alert-danger" role="alert">
+ 		<strong>Atenção!</strong>
+	</div>
 </div>
 
+<div class="col-md-4 ultrassom2" >
+  	<span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span> Sensor Ultrassom 2
+</div>
 
+<div class="col-md-4 ultrassom3" >
+  	<span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span> Sensor Ultrassom 3
+</div>
+
+<div class="col-md-4 ultrassom4" >
+  	<span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span> Sensor Ultrassom 4
+</div>
+
+<div class="col-md-4 fumaca1" >
+	<span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Sensor Fumaça 1
+</div>
+
+<div class="col-md-4 fumaca2" >
+	<span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Sensor Fumaça 2
+</div>
+
+<div class="col-md-4 fumaca3" >
+	<span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Sensor Fumaça 3
+</div>
+
+<div class="col-md-4 fumaca4" >
+	<span class="glyphicon glyphicon-fire" aria-hidden="true"></span> Sensor Fumaça 4
+</div>
 </div>
 
 
